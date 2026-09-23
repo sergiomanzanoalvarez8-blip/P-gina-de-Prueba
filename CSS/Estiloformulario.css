@@ -1,0 +1,40 @@
+header {
+    background-color: #a200b8;
+    padding: 10px;
+    color: darkblue;
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    background-color: #a200b8;
+    padding: 10px;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    background-color: rgb(124, 112, 112);
+}
+
+.correo {
+    background-color: #a200b8;
+    padding: 10px;
+}
+
+button {
+    background-color: #d778e4;
+    padding: 10px;
+}
+
+nav {
+    background-color: #a200b8;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(247, 244, 244);
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto | CIFP Virgen de Gracia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/cssprueba.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <h2>Lenguaje de Marcas</h2>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="Formulario.html" class="active">Formulario</a></li>
+                <li><a href="Horario.html">Horario</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-container">
+        <section class="form-card">
+            <div class="form-header">
+                <h1>Formulario de Contacto</h1>
+                <p>Por favor, completa la siguiente información para ponerte en contacto con nosotros.</p>
+            </div>
+
+            <form action="#" method="post" class="contact-form">
+                <fieldset class="form-section">
+                    <legend>Datos Personales</legend>
+
+                    <div class="form-grid">
+                        <div class="input-group">
+                            <label for="nombre">Nombre <span class="required">*</span></label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Ej. Sergio" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="apellidos">Apellidos <span class="required">*</span></label>
+                            <input type="text" id="apellidos" name="apellidos" placeholder="Ej. Manzano Álvarez" required>
+                        </div>
+                    </div>
+
+                    <div class="form-grid">
+                        <div class="input-group">
+                            <label for="edad">Edad <span class="required">*</span></label>
+                            <input type="number" id="edad" name="edad" min="16" max="100" placeholder="Ej. 20" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono" placeholder="Ej. +34 600 000 000">
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="email">Correo Electrónico <span class="required">*</span></label>
+                        <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="asunto">Asunto <span class="required">*</span></label>
+                        <select id="asunto" name="asunto" required>
+                            <option value="" disabled selected>Selecciona una opción</option>
+                            <option value="consulta">Consulta general</option>
+                            <option value="incidencia">Soporte / Incidencia</option>
+                            <option value="sugerencia">Sugerencia</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="mensaje">Mensaje <span class="required">*</span></label>
+                        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                    </div>
+
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="privacidad" name="privacidad" required>
+                        <label for="privacidad">He leído y acepto la política de privacidad <span class="required">*</span></label>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn-submit">Enviar Formulario</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© CIFP Virgen de Gracia — Todos los derechos reservados.</p>
+        <p>Contacto directo: <a href="mailto:sergiomanzanoalvarez8@gmail.com">sergiomanzanoalvarez8@gmail.com</a></p>
+    </footer>
+
+</body>
+
+</html>
