@@ -1,20 +1,20 @@
-function suma () {
+function suma() {
     let numero3 = numero1 + numero2;
-    alert (numero3);
+    alert(numero3);
 }
 
-function resta () {
+function resta() {
     let numero3 = numero1 - numero2;
-    alert (numero3);
+    alert(numero3);
 }
 
-function multiplicacion () {
+function multiplicacion() {
     let numero3 = numero1 * numero2;
-    alert (numero3);
+    alert(numero3);
 }
 
 
-alert ("¡Hello, world!");
+alert("¡Hello, world!");
 
 let numero1 = 5;
 
