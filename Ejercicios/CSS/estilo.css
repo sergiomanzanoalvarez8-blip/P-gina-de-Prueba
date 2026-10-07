@@ -1,0 +1,132 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: #333;
+    color: white;
+}
+.fdh{
+    background: green;
+}
+
+.ldm{
+    background: blue;
+}
+
+.IPE{
+    background: orange;
+}
+
+.horas{
+    background: lavender;
+}
+
+.dias{
+    background: lavender;
+    color: black;
+}
+
+.recreo{
+    background: lavender;
+}
+
+.ssoo{
+    background: plum;
+}
+
+.ingles{
+    background: greenyellow;
+}
+
+.gbd{
+    background: burlywood;
+}
+
+.redes{
+    background: salmon;
+}
+
+.proyecto{
+    background: darkcyan;
+}
+
+.digi{
+    background: orangered;
+}
+
+.sos{
+    background: lime;
+}
+
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+      padding: 20px;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #003366;
+    }
+
+    table {
+      width: 100%;
+      max-width: 800px;
+      margin: auto;
+      border-collapse: collapse;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    thead {
+      background-color: #003366;
+      color: white;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: center;
+      border: 1px solid #ccc;
+      transition: all 0.3s ease;
+    }
+
+    tbody td:hover {
+      background-color: yellow;
+      transform: scale(1.02);
+      font-weight: bold;
+      color: #000;
+    }
+
+    .footer-row {
+      background-color: #ffe0e0;
+      font-weight: bold;
+      color: #d60000;
+      text-align: center;
+    }
+
+    .total {
+      color: #3333cc;
+    }
+
+    .title {
+      color: #0000cc;
+      font-size: 24px;
+    }
+
+    .subtitulo {
+      color: #cc0000;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .fondo {
+      background-color: #b2f0ff;
+      color: darkblue;
+    }

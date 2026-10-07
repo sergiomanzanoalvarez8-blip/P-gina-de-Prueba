@@ -1,0 +1,31 @@
+h2 {
+    color: red
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-size: 30px;
+    font-family: verdana;
+}
+
+.subrayado {
+    background-color: yellow;
+}
+
+hr {
+    height: 1.5px;
+    background-color: gray;
+}
+
+.rectangulo {
+  width: auto;
+  height: 20px;
+  background-color: #c6c4c4;
+  border: 2px solid rgb(0, 13, 252);
+  line-height: 20px;
+}
